@@ -7,9 +7,10 @@ layout: default
   <h1 class="page-heading">Useful Links</h1>
 
   <ul class="post-list">
-    {% for link in site.data.contentful.spaces.links.link %}
+    {% for product in site.data.contentful.spaces.poker.2PqfXUJwE8qSYKuM0U6w8M %}
       <li>
-        <h2><a href="{{ link.url | url }}">{{ link.websiteName }}</a></h2>
+        <h2>{{ product.productName }}</h2>
+        <p><img src="{{ product.image[0].url }}" title="{{ product.image[0].title }}" /><br />{{ product.productDescription }}</p>
       </li>
     {% endfor %}
   </ul>

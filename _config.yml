@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: contentfulapp
 github_username:  dlitvakb
+host: 0.0.0.0
 
   # Build settings
 markdown: kramdown
@@ -23,3 +24,6 @@ contentful:
     - links:
         space: 3fwy09k2gc9g
         access_token: 25f513e34e33916336bba1d740d135035d4e1d63b87fc446da374fec3aaccaca
+    - poker:
+        space: wqqfbf5k1yo4
+        access_token: 666d20550b34a21e997519c52d9e8c4aceb6b022b5dbb3260935ff3af39e1542
