@@ -16,15 +16,25 @@
             <div class="account-bar__inner  account-bar__right-inner">
                 <div class="account-bar__links-wrap">
                     <ul class="nav  account-links">
-
+                        {% if page.loggedIn %}
                         <li>
-                            <a class="account-bar__link  js-login" href="#">Log In <i class="icon  icon--natural  hide-mobile" data-icon="&#xF006;"></i></a>
+                            <a class="account-bar__link  account-bar__has-icon  account-bar__has-user  js-my-account" href="/">
+                                <span class="account-bar__firstname">Chris (</span><span class="js-account-balance">£80.00</span><span class="account-bar__firstname">)</span> <i class="icon  icon--natural" data-icon="&#xF006;"></i>
+                            </a>
+                        </li>
+                        <li class="deposit-link">
+                            <a class="account-bar__link  account-bar__has-icon  js-deposit" href="#">
+                                Deposit <i class="icon icon--natural" data-icon="&#xF203;"></i>
+                            </a>
+                        </li>
+                        {% else %}
+                        <li>
+                            <a class="account-bar__link  js-login" href="/loggedin">Log In <i class="icon  icon--natural  hide-mobile" data-icon="&#xF006;"></i></a>
                         </li>
                         <li>
                             <a class="account-bar__link  js-register" href="#">Join<span class="hide-mobile"> Now </span><i class="icon  icon--natural  hide-mobile" data-icon="&#xF305;"></i></a>
                         </li>
-
-
+                        {% endif %}
                     </ul>
                 </div>
             </div>
