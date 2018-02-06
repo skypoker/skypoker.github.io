@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Contentful Jekyll Single Space Example
+title: Sky Poker
 email: david.litvak@contentful.com
-description: > # this means to ignore newlines until "baseurl:"
-  Single Space Example using Jekyll and Contentful
+description: >
+  Play Poker online, on tablet &amp; on mobile at Sky Poker.
+  New customers get £10 completely free, plus a 200%
+  matched first deposit bonus up to £500!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: contentfulapp
-github_username:  dlitvakb
+url: "http://sky.poker"
 host: 0.0.0.0
 
   # Build settings

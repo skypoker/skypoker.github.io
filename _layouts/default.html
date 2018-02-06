@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <div class="wrap-all">
+        {% include crossproduct.html %}
 
-  {% include head.html %}
+        <div class="content-wrap" id="js-content">
+            {% include accountbar.html %}
+            {% include navbar.html %}
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+            <div class="page-content">
+                {{ content }}
+            </div>
+        </div><!-- content-wrap -->
+        {% include footer.html %}
+    </div><!-- wrap-all -->
+</body>
 </html>
