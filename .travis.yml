@@ -3,7 +3,8 @@ env:
   global:
   - GIT_NAME: Travis CI
   - GIT_EMAIL: travis@travis-ci.org
+  - GIT_BRANCH: master
   - secure: IKmRUYyA5+BzsoD+4+jhMzSgB5QKDuu/y8CuxcnUgK6v4S0zdpXRdjxq6VBaGEy2vQWqDCG/Skdu6nTGPMSvO8+7i559e/9CAkqS3jT0qOX9iytMJbP5MzoazBal0H3GfLFvxvFEYuu4xpbX6xnwt7ujR5x99japn8vzPJpkI7XIuOy4X/AmlladWRFo0vs8Sop2fwV64g6tgvgaPXgVRSwbDHR1MWnSnzbla4bv8hdwzimod7EZOIInJrn35HSwWx40A2kIooEEKo23B7T+6vAR7lsb7mBVFlIyhOrG1kek/6R0m8uOuxQWhqDs63ck5acUHynE7qpEHZSHKxDghl6trZc8Fz3cVlYkM8zHeQvV+Emxw2mjblttl3GYdV2aWTwz2zE3WWweBL14gzqbnsOrDcy/XbGhPVbePA8khsXfHUCWqBhhEYopVcQ0TNfdEGQhXNgZobubmb1sN5H8SrJNUrpuko1NZjGRbGALnv22+bqUK7SUgNEw3Tc2yYZXNJ3xA5AbTtxC0RtAQ02dcHMn7uz2M/NJ7M4cVYZldbhzUs1Fye69IlW9xOSAe/fRrsvWfRO5lCwGFKgbMMSddUeRV52iNmPEAJv2xWTs3+/Y+tdvWyOwepN0Q9y91B0R+I6DKTDi4cHJdzpUcKzL/9biORIrP9RCLJY73ay0lpM=
 branches:
   only:
-  - master
+  - release
