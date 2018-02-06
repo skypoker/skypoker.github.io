@@ -8,7 +8,7 @@
     <meta name="apple-itunes-app" content="app-id=871803752">
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
     <link rel="stylesheet" type="text/css" href="/css/poker-b74e6b361f8c5d2bf0608e21ada0e0ca.css" />
     <!--<link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">-->
