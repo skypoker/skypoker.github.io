@@ -1,0 +1,14 @@
+        <div class="background" style="background-image: url({{ promotion.background.url }});">
+            <div class="content">
+                <div class="promo-img">
+                    <img src="{{ promotion.image.url }}" alt="{{ promotion.image.title }}">
+                </div>
+                <div class="details">
+                    <h1>{{ promotion.name }}</h1>
+                    <p class="smalldesc">{{ promotion.description }}</p>
+                    <p class="hide-mobile"></p>
+                    <a class="btn btn--poker--promo--secondary" href="/promotions/{{ promotion.url }}">Find out more</a>
+                    <a class="btn btn--poker--promo" href="/cash">Play Now</a>
+                </div>
+            </div>
+        </div>
