@@ -1,7 +1,7 @@
 GIT_REMOTE := $(shell git config remote.origin.url)
 
 build:
-	bundle exec jekyll contentful
+	bundle exec jekyll contentful || true
 
 travis: build
 ifeq ($(TRAVIS_PULL_REQUEST), true)
