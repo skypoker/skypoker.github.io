@@ -16,7 +16,7 @@ GEM
       launchy
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
-    ffi (1.9.10)
+    ffi (1.11.1)
     http (0.9.8)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
